@@ -6,6 +6,7 @@ You may assume that every input has exactly one pair of indices i and j that sat
 Return the answer with the smaller index first. 
 '''
 
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         prevMap = {}  # val -> index
