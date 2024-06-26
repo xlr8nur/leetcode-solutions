@@ -1,8 +1,9 @@
 '''
 Question;
 
-Given two strings s and t, return true if the two strings are anagrams of each other, otherwise return false.
-An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
+Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded
+back to the original list of strings.
+Please implement encode and decode.
 '''
 
 class Solution:
