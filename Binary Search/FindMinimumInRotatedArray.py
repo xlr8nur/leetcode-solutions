@@ -9,6 +9,7 @@ You are given an array of length n which was originally sorted in ascending orde
 Notice that rotating the array 4 times moves the last four elements of the array to the beginning. Rotating the array 6 times produces the original array.
 Assuming all elements in the rotated sorted array nums are unique, return the minimum element of this array.
 A solution that runs in O(n) time is trivial, can you write an algorithm that runs in O(log n) time?
+
 '''
 
 class Solution:
