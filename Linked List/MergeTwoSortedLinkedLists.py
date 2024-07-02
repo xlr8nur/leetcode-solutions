@@ -6,12 +6,6 @@ Merge the two lists into one sorted linked list and return the head of the new s
 The new list should be made up of nodes from list1 and list2.
 '''
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-
 # Iterative
 class Solution:
     def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
