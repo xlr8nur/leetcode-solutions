@@ -6,11 +6,6 @@ The digits are stored in reverse order, e.g. the number 123 is represented as 3 
 Each of the nodes contains a single digit. You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 Return the sum of the two numbers as a linked list.
 '''
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         dummy = ListNode()
