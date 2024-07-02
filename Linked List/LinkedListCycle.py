@@ -7,13 +7,6 @@ Internally, index determines the index of the beginning of the cycle, if it exis
 Note: index is not given to you as a parameter.
 '''
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
-
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         slow, fast = head, head
